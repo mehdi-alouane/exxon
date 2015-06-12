@@ -1,0 +1,300 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+.absolute {
+  position: absolute; }
+
+.fixed {
+  position: fixed; }
+
+.relative {
+  position: relative; }
+
+.inline-block {
+  display: inline-block; }
+
+.padding-top-three {
+  padding-top: 3em; }
+
+.padding-right-one {
+  padding-right: 1em; }
+
+.padding-left-one {
+  padding-left: 1em; }
+
+.padding-top-one {
+  padding-top: 1em; }
+
+.padding-bottom-one {
+  padding-bottom: 1em; }
+
+.padding-one {
+  padding: 1em; }
+
+.padding-right-half {
+  padding-right: 0.5em; }
+
+.padding-left-half {
+  padding-left: 0.5em; }
+
+.padding-top-half {
+  padding-top: 0.5em; }
+
+.padding-bottom-half {
+  padding-bottom: 0.5em; }
+
+.padding-right-min {
+  padding-right: 0.24em; }
+
+.padding-left-min {
+  padding-left: 0.24em; }
+
+.padding-top-min {
+  padding-top: 0.24em; }
+
+.padding-bottom-min {
+  padding-bottom: 0.24em; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.center {
+  text-align: center; }
+
+.title {
+  font-size: 36px;
+  font-family: "Droid Arabic Kufi", serif !important; }
+
+.text {
+  font-size: 20px;
+  font-family: "Droid Arabic Kufi", serif !important; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Droid Arabic Naskh", serif !important;
+  font-size: 14px;
+  outline: none !important;
+  min-width: initial !important; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #F9F9F9;
+  color: #5a6772;
+  overflow-x: hidden !important;
+  padding-top: 0 !important; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.container-header {
+  background-color: #fff;
+  color: #111;
+  width: 100%;
+  height: 3.5em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.logo {
+  color: #DA552F;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s; }
+  .logo:hover {
+    color: #5a6772; }
+
+.label-logo {
+  right: 20%;
+  top: -4px;
+  width: 100px; }
+
+.container-header_nav {
+  float: left;
+  width: 40%;
+  top: -90%;
+  left: 10%; }
+
+.head-nav {
+  float: left; }
+  .head-nav li, .head-nav a {
+    color: #5a6772; }
+    .head-nav li:hover, .head-nav a:hover {
+      color: #DA552F; }
+
+.login-btn {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s; }
+  .login-btn:hover {
+    background-color: #67BE90;
+    color: #fff !important; }
+
+.container-label {
+  z-index: 14;
+  top: 20%;
+  right: 20%;
+  background-color: transparent;
+  width: 60%;
+  height: 60%; }
+
+.text-logo {
+  color: #5a6772;
+  border-bottom: 1px dotted #DA552F;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s; }
+  .text-logo:hover {
+    color: #DA552F; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #F9F9F9;
+  border: 1px solid #silver;
+  border-radius: 2px;
+  direction: ltr;
+  text-align: right; }
+
+button,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="password"] {
+  font-family: 'Droid Arabic Naskh', serif !important; }
+
+a, button, input[type="submit"] {
+  cursor: pointer; }
+
+.container-label_form {
+  height: 4em;
+  right: 20%;
+  z-index: 20;
+  left: 50%; }
+  .container-label_form .input-text {
+    border: 1px solid #ddd;
+    background-color: #F9F9F9;
+    width: 50%;
+    height: 60%;
+    outline: none;
+    padding: 3px 6px; }
+    .container-label_form .input-text:hover {
+      border-color: #67BE90; }
+  .container-label_form .input-btn {
+    color: #fff;
+    background-color: #67BE90;
+    border: 1px solid #67BE90;
+    width: 10%;
+    height: 74%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    left: 24px;
+    top: 0px;
+    font-size: 15px; }
+
+/* Mask for background, by default is not display */
+#mask {
+  display: none;
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 999; }
+
+/* You can customize to your needs  */
+.login-popup {
+  width: 30%;
+  height: 40%;
+  display: none;
+  background: #F9F9F9;
+  padding: 5px;
+  border: 2px solid #F9F9F9;
+  float: left;
+  font-size: 1.2em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+
+img.btn_close {
+  width: 10%;
+  height: 15%;
+  float: right;
+  margin: -28px -28px 0 0; }
+
+fieldset {
+  border: none; }
+
+form.signin .textbox label {
+  display: block;
+  padding-bottom: 7px; }
+
+form.signin .textbox span {
+  display: block; }
+
+form.signin p, form.signin span {
+  color: #5a6772;
+  font-size: 14px;
+  line-height: 18px; }
+
+form.signin .textbox input {
+  background: #F9F9F9;
+  border: 1px solid #ddd;
+  color: #5a6772;
+  border-radius: 2px;
+  padding: 6px 4px;
+  width: 92%; }
+
+form.signin input:-moz-placeholder {
+  color: #5a6772; }
+
+form.signin input::-webkit-input-placeholder {
+  color: #5a6772; }
+
+.button {
+  width: 94.5%;
+  height: 50%;
+  font-size: 14px;
+  color: #fff;
+  background-color: #67BE90;
+  border: 1px solid #67BE90;
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 3px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px; }
+
+/*# sourceMappingURL=main.css.map */

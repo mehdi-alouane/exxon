@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<title>exxon // Home</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/main.css" media="all">
+	<meta name="author" content="Mehdi Alouane">
+</head>
+<body>
+<div class="container absolute">
+	<div class="container-header">
+		<div class="container-header_logo">
+			<h3 class="label-logo relative padding-right-half
+			padding-left-half padding-top-min padding-bottom-min">
+			<a href="" class="logo">إِكسُون</a>
+			</h3>
+		</div>
+		<div class="container-header_nav relative">
+			<nav class="head-nav">
+				<ul>
+					<li class="inline-block">
+					<a href="" class="right padding-right-half padding-left-half">عن إِكسُون</a></li>
+					<li class="inline-block">
+					<a href="" class="right padding-right-half padding-left-half">المدونة</a></li>
+					<li class="inline-block">
+					<a href="#login-box" class="right padding-right-half padding-left-half login-btn login-window">
+						تسجيل الدخول
+					</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!--container-header end-->
+	<div class="container-label absolute">
+		<div class="container-label_p">
+			<p class="center title padding-top-half">مرحبا  بك في <a class="text-logo" href="">إِكسُون</a> !</p>
+			<p class="center text padding-top-one">إِكسُون منصة لنشر وتعريف العالم على مشروعك</p>
+			<p class="center text padding-top-half">
+				المنصة لا زالت في المرحلة التجريبية لدى أدخل بريدك الإلكتروني لتتوصل بدعوة
+			</p>
+		</div>
+		<div class="container-label_form padding-top-three relative">
+			<input class="input-text" type="text" placeholder="أدخل بريدك الإلكتروني" tabindex="1">
+			<input class="input-btn relative" type="submit" value="طَلَبْ">
+		</div>
+	</div>
+</div>
+<div id="login-box" class="login-popup">
+<a href="#" class="close"><img src="img/close_pop.png" height="128" width="128" class="btn_close" title="Close Window" alt="Close" /></a>
+  <form method="post" class="signin" action="#">
+        <fieldset class="textbox">
+        <label class="username">
+        <span class="padding-top-half padding-bottom-one">إسم المستخدم/البريد الإلكتروني</span>
+        <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="إسم المستخدم/البريد الإلكتروني">
+        </label>
+        <label class="password">
+        <span class="padding-top-half padding-bottom-half">كلمة السر</span>
+        <input id="password" name="password" value="" type="password" placeholder="كلمة السر">
+        </label>
+        <button class="submit button padding-top-one" type="button">تسجيل الدخول</button>
+        <p>
+        <a class="forgot padding-right-half" href="#">هل نسيت كلمة المرور؟</a>
+        </p>        
+        </fieldset>
+  </form>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
