@@ -270,18 +270,18 @@ form.signin p, form.signin span {
   line-height: 18px; }
 
 form.signin .textbox input {
+  font-size: 11px;
   background: #F9F9F9;
   border: 1px solid #ddd;
-  color: #5a6772;
   border-radius: 2px;
   padding: 6px 4px;
   width: 92%; }
 
-form.signin input:-moz-placeholder {
-  color: #5a6772; }
+form.signin input::-moz-placeholder {
+  color: #aaa; }
 
 form.signin input::-webkit-input-placeholder {
-  color: #5a6772; }
+  color: #aaa; }
 
 .button {
   width: 94.5%;
