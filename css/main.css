@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+*, html, body {
+  padding: 0;
+  margin: 0;
+  text-decoration: right;
+  direction: rtl;
+  font-family: "Droid Arabic Naskh", sans-serif; }
+  * body, html body, body body {
+    background-color: white;
+    z-index: 01; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+a, li {
+  color: #DA552F;
+  display: inline; }
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white; }
+  .container .container_header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    z-index: 02; }
+    .container .container_header .text_logo {
+      background-color: white;
+      font-family: "Droid Arabic Naskh", sans-serif;
+      color: #DA552F;
+      padding-top: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      font-size: 24px;
+      right: 10%;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.8s;
+      width: 5%; }
+      .container .container_header .text_logo:hover {
+        background-color: #F9F9F9; }
+    .container .container_header .text_logo_sub {
+      color: #c1c1c1;
+      font-weight: 100;
+      font-size: 16px;
+      font-family: "Droid Arabic Naskh", serif;
+      position: absolute;
+      top: 30%;
+      right: 16.5%; }
+    .container .container_header .container_nav {
+      width: 23%;
+      height: auto;
+      top: 1%;
+      right: 74%;
+      padding: 12px 6px;
+      position: absolute; }
+      .container .container_header .container_nav .link {
+        padding-right: 12px;
+        transition: color 0.4s; }
+        .container .container_header .container_nav .link:hover {
+          color: #A0AEC1; }
+      .container .container_header .container_nav .login-btn {
+        color: #00aced;
+        padding-right: 15px; }
+  .container .container_content {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    top: 26%;
+    right: 12%;
+    z-index: 00; }
+
+/*# sourceMappingURL=main.css.map */

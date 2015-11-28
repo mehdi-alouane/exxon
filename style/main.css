@@ -134,7 +134,7 @@ p {
   background-color: #F9F9F9; }
 
 .container-logo {
-  background-color: none;
+  background-color: transparent;
   width: 500px;
   height: 200px; }
 
